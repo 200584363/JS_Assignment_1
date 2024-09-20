@@ -1,0 +1,87 @@
+/* Code by Utsav Patel |  Subject: Javascript | Student ID: 200584363 | Assignment-1 */
+body {
+	font-family: Arial, sans-serif;
+}
+.container {
+	display: flex;
+	padding: 10px;
+	margin: auto;
+	border-radius: 10px;
+	width: 35%;
+	background-color: whitesmoke;
+	justify-content: center;
+	border: 2px double;
+}
+h1 {
+	text-align: center;
+}
+button {
+	height: 60px;
+	width: 60px;
+	color: #e9e6e6;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 0px rgba(1,0,0.1,1);
+}
+.btn1{
+	background-color: #a805a8;
+}
+.btn2{
+	background-color: #4fc5f8;
+}
+.btn3{
+	background-color: #0e9241;
+}
+.btn4{
+	background-color: #ff9900;
+}
+.btn5{
+	background-color: #ff44b7;
+}
+.btn6{
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+	background-color: #640df0;
+}
+.howToUse{
+	display: flex;
+	padding: 10px 10px 10px 10px;
+	margin: 12px auto;
+	border-radius: 10px;
+	width: 35%;
+	background-color: whitesmoke;
+	justify-content: center;
+	border: 2px double;
+}
+.subContainer {
+	display: flex;
+	padding: 10px;
+	margin: 12px auto;
+	border-radius: 10px;
+	width: 35%;
+	background-color: whitesmoke;
+	justify-content: center;
+	border: 2px double;
+}
+#story-output, #selected-word, #speak-status, #reset-status, #outline {
+	margin: 20px auto;
+	padding: 10px;
+	width: 35%;
+	height: auto;
+	border: 2px double;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.footer {
+	background-color: #333a42;
+	color: #fff;
+	padding: 10px;
+	font-weight: 600;
+	margin: 20px auto;
+	text-align: center;
+}
