@@ -19,57 +19,61 @@
   <body>
     <!-- Page Header -->
     <h1>Assignment-1 | Random Storymaker</h1>
+    <div class="mainContainer">
+      <!-- Instructions on how to use the application -->
+      <div class="subSection1">
+        <div class="howToUse">
+          <p>
+            <b>How to use:</b> Below, you’ll find buttons labeled 1, 2, 3, 4,
+            and 5. Click any of these to access various controls that allow you
+            to speak, reset, or generate a random story.
+          </p>
+        </div>
 
-    <!-- Instructions on how to use the application -->
-    <div class="howToUse">
-      <p>
-        <b>How to use:</b> Below, you’ll find buttons labeled 1, 2, 3, 4, and 5.
-        Click any of these to access various controls that allow you to speak,
-        reset, or generate a random story.
-      </p>
-    </div>
+        <!-- Button container for selecting parts of the story -->
+        <div class="container">
+          <!-- Each button corresponds to a different part of the story -->
+          <button id="noun-btn" class="btn1">1</button>
+          <!-- Button for Noun -->
+          <button id="verb-btn" class="btn2">2</button>
+          <!-- Button for Verb -->
+          <button id="adjective-btn" class="btn3">3</button>
+          <!-- Button for Adjective -->
+          <button id="noun2-btn" class="btn4">4</button>
+          <!-- Button for second Noun -->
+          <button id="place-btn" class="btn5">5</button>
+          <!-- Button for Place -->
+        </div>
 
-    <!-- Button container for selecting parts of the story -->
-    <div class="container">
-      <!-- Each button corresponds to a different part of the story -->
-      <button id="noun-btn" class="btn1">1</button>
-      <!-- Button for Noun -->
-      <button id="verb-btn" class="btn2">2</button>
-      <!-- Button for Verb -->
-      <button id="adjective-btn" class="btn3">3</button>
-      <!-- Button for Adjective -->
-      <button id="noun2-btn" class="btn4">4</button>
-      <!-- Button for second Noun -->
-      <button id="place-btn" class="btn5">5</button>
-      <!-- Button for Place -->
-    </div>
-
-    <!-- Additional control buttons for speaking, resetting, or generating a random story -->
-    <div>
-      <div class="subContainer">
-        <button id="speak-btn" class="btn6">Speak</button>
-        <!-- Speak button to read the story aloud -->
-        <button id="reset-btn" class="btn6">Reset</button>
-        <!-- Reset button to clear the current story -->
-        <button id="random-story-btn" class="btn6">Random Story</button>
-        <!-- Button to generate a random story -->
+        <!-- Additional control buttons for speaking, resetting, or generating a random story -->
+        <div>
+          <div class="subContainer">
+            <button id="speak-btn" class="btn6">Speak</button>
+            <!-- Speak button to read the story aloud -->
+            <button id="reset-btn" class="btn6">Reset</button>
+            <!-- Reset button to clear the current story -->
+            <button id="random-story-btn" class="btn6">Random Story</button>
+            <!-- Button to generate a random story -->
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="subSection1">
+        <!-- Output area where the generated story will be displayed -->
+        <div id="story-output"></div>
+        <!-- Output area where the speech status will be shown -->
+        <div id="speak-status"></div>
+        <!-- Output area where the reset status will be shown -->
+        <div id="reset-status"></div>
 
-    <!-- Output area where the generated story will be displayed -->
-    <div id="story-output"></div>
-    <!-- Output area where the speech status will be shown -->
-    <div id="speak-status"></div>
-    <!-- Output area where the reset status will be shown -->
-    <div id="reset-status"></div>
-
-    <!-- Hidden outline for showing the selected story elements (Noun, Verb, etc.) -->
-    <div id="outline" style="display: none">
-      <p>Noun: <span id="noun-value"></span></p>
-      <p>Verb: <span id="verb-value"></span></p>
-      <p>Adjective: <span id="adjective-value"></span></p>
-      <p>Noun 2: <span id="noun2-value"></span></p>
-      <p>Place: <span id="place-value"></span></p>
+        <!-- Hidden outline for showing the selected story elements (Noun, Verb, etc.) -->
+        <div id="outline" style="display: none">
+          <p>Noun: <span id="noun-value"></span></p>
+          <p>Verb: <span id="verb-value"></span></p>
+          <p>Adjective: <span id="adjective-value"></span></p>
+          <p>Noun 2: <span id="noun2-value"></span></p>
+          <p>Place: <span id="place-value"></span></p>
+        </div>
+      </div>
     </div>
 
     <!-- Footer section -->
